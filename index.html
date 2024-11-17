@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weight Converter</title>
+</head>
+<body>
+    <section id="section">
+        <div class="converter">
+            <h1 class="title">Weight <span class="yellow">Converter</span></h1>
+            <div class="check-box">
+                <div class="left">
+                    <input type="text" class="from" id="from" placeholder="Kilogram" autocomplete="off">
+                    <div class="arrow-background"></div>
+                    <i class="fa fa-caret-down fa-left" id="arrow"></i>
+                </div>
+                <div id="mass-list" class="hide">
+                    <p class="mass">Gram</p>
+                    <p class="mass">Kilogram</p>
+                    <p class="mass">Milligram</p>
+                    <p class="mass">Pounds</p>
+                </div>
+            </div>
+           
+
+            <!-- <div class="from">Kilogram</div> -->
+            <!-- <div class="to">Gram</div> -->
+            <!-- <div class="right">
+                <p id="to"></p> -->
+                <!-- <input type="text" id="to" placeholder="Gram"> -->
+                <!-- <i class="fa fa-caret-down fa-right"></i>     -->
+            </div>
+            <div class="check-box">
+                <div class="right">
+                    <!-- <p id="to"></p> -->
+                    <input type="text" id="to" placeholder="Gram">
+                    <div class="arrow-background"></div>
+                    <i class="fa fa-caret-down fa-right" id="arrow2"></i>
+                </div>
+                <div id="mass-list2" class="hide">
+                    <p class="mass">Gram</p>
+                    <p class="mass">Kilogram</p>
+                    <p class="mass">Milligram</p>
+                    <p class="mass">Pounds</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
